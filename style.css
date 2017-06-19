@@ -3,11 +3,15 @@
 	padding: 0;
 }
 
-.grid {
+#grid {
 	display: inline-block;
 	width: 113px;
 	height: 113px;
 	margin: 0;
 	border: 1px solid black;
 	vertical-align: top;
+}
+
+.hover {
+	background-color: black;
 }
