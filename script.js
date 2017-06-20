@@ -8,4 +8,8 @@ $(document).ready(function(){
 	$('.grid').mouseenter(function() {
 		$(this).css("background-color", "black");
 	});
+
+	document.getElementById("clear").onclick = function() {
+		$('.grid').css("background-color", "white");
+	};
 });
