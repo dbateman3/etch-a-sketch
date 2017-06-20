@@ -11,5 +11,7 @@ $(document).ready(function(){
 
 	document.getElementById("clear").onclick = function() {
 		$('.grid').css("background-color", "white");
+		
+		var $gridSize = prompt("Enter new grid size", "16");
 	};
 });
